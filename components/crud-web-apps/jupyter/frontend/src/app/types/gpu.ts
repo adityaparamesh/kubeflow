@@ -6,5 +6,6 @@ export interface GPUVendor {
 export interface GPU {
   vendor?: string;
   num?: string;
+  gpusCount: string[];
   vendors?: GPUVendor[];
 }
